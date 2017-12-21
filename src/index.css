@@ -3,6 +3,9 @@ body {
   margin: 20px;
   background-color: #ECECEA;
 }
+* {
+  z-index: 5;
+}
 
 ol, ul {
   padding-left: 30px;
