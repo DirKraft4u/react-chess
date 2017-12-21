@@ -1,15 +1,15 @@
 import React from 'react';
 
 
-
 export default function Square(props) {
 
     return (
-      <button className={"square " + props.shade}
-      onClick={props.onClick}
-      style={props.style}>
+        <button className={"square " + props.shade}
+                onMouseDown={props.onMouseDown}
+                onMouseUp={props.onMouseUp}
+                style={props.style}>
 
-      </button>
+        </button>
     );
 
 }

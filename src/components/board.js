@@ -8,7 +8,8 @@ export default class Board extends Component {
     piece = {this.props.squares[i]} 
     style = {this.props.squares[i]? this.props.squares[i].style : null}
     shade = {squareShade}
-    onClick={() => this.props.onClick(i)}
+    onMouseDown={() => this.props.onMouseDown(i)}
+    onMouseUp={() => this.props.onMouseUp(i)}
     />
   }
 
