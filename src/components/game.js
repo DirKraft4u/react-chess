@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import Board from './board.js';
-import FallenSoldierBlock from './fallen-soldier-block.js';
-import initialiseChessBoard from '../helpers/board-initialiser.js';
+import Board from './board';
+import FallenSoldierBlock from './fallen-soldier-block';
+import initialiseChessBoard from '../helpers/board-initialiser';
 
 export default class Game extends Component {
   constructor(){
