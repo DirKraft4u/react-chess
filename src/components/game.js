@@ -85,11 +85,11 @@ export default class Game extends Component {
                 }
             }
         }
-        // console.log(i, 'MOUSE UP');
     }
 
     isMoveLegal(srcToDestPath) {
         let isLegal = true;
+        console.log(this.state.squares);
         for (let i = 0; i < srcToDestPath.length; i++) {
             if (this.state.squares[srcToDestPath[i]] !== null) {
                 isLegal = false;
